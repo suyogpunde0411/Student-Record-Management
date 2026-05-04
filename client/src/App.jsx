@@ -6,6 +6,9 @@ import Alert from './components/Alert';
 
 const API_URL = 'http://localhost:5000/api/students';
 
+// const API_URL = '/api/students';
+
+
 function App() {
   const [students, setStudents] = useState([]);
   const [currentStudent, setCurrentStudent] = useState(null);
