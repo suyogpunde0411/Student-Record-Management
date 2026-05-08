@@ -4,9 +4,9 @@ import StudentForm from './components/StudentForm';
 import StudentList from './components/StudentList';
 import Alert from './components/Alert';
 
-const API_URL = 'http://localhost:5000/api/students';
+// const API_URL = 'http://localhost:5000/api/students';
 
-// const API_URL = '/api/students';
+const API_URL = '/api/students';
 
 
 function App() {
